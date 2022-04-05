@@ -1,0 +1,40 @@
+@font-face {
+    font-family: iphone;
+    src: url(../trabajo-logica/unofficial_iOS16_u14.ttf)
+}
+
+body {
+    font-size: 20px;
+    background-color: aliceblue;
+    font-family: iphone;
+}
+
+input, select, option {
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin: 1em;
+}
+
+input:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+input:focus::placeholder {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.6em;
+    position: absolute;
+    top: 0%;
+    left: 2%;
+}
+.enviar {
+    cursor: pointer;
+}
+.enviar:hover {
+    background-color: rgba(47, 0, 255, 0.6);
+    transition: all ease-in-out 0.5s;
+}
